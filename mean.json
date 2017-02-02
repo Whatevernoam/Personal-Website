@@ -1,0 +1,21 @@
+ [
+   {
+    "title": "MongoDB",
+    "content": "Classified as a NoSQL database - uses JSON-like documents with schemas"
+    },
+  
+   {
+    "title": "Express",
+    "content": "Sinatra inspired web development framework for node.js"
+    },
+  
+   {
+    "title": "Angular",
+    "content": "A complete JavaScript-based open-source front-end web application framework"
+    },
+  
+    {
+    "title": "NodeJS",
+    "content": "event-driven I/O server-side JavaScript environment based on V8"
+    }
+]

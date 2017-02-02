@@ -1,0 +1,380 @@
+
+body {
+  position: relative;
+  color: silver;
+}
+
+#header {
+  background-image: url("images/contours.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 6%;
+
+}
+
+.profile-img {
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+.profile-img img {
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block
+}
+
+.profile-name {
+ height: auto;
+ color: silver;
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 25px;
+ animation: 1s 0.25s fade backwards ease-out;
+}
+
+@keyframes fade{
+  0% {
+    transform: translateY(.25em);
+    opacity: 0;
+  }
+}
+
+.profile-name h1 {
+  letter-spacing: 1px;
+  color: beige
+}
+.profile-name h4 {
+  text-transform: uppercase;
+  font-family: serif;
+  letter-spacing: 2px;
+}
+
+
+.navbar-static-top {
+  background-image: url("images/bamboo.png");
+  background-attachment: fixed;
+  background-color: rgba(0,0,0,0.9);
+  margin-bottom: 0px;
+  border-bottom: 0px;
+
+}
+
+.navbar .main-nav {
+  vertical-align: middle;
+  position: relative;
+  margin-top: 15px;
+ 
+ 
+}
+
+
+ul.navi { 
+  list-style: none;
+  padding: 0px;
+}
+ul.navi li{
+  text-align: center;
+}
+ul.navi li a {
+  display: inline-block;
+  color: silver;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+ul.navi li a:hover {
+ 
+  color: beige
+}
+
+.intro {
+  text-align: center;
+  color: silver;
+  font-size: 2em;
+  font-weight: 100;
+  margin-top: 20px
+}
+
+.main-body {
+  background-image: url("images/bamboo.png");
+  background-attachment: fixed;
+  background-color: rgba(0,0,0,0.9);
+  padding: 2%;
+/*
+  background-image: url("images/bamboo.png"), url("images/contours.png");
+  background-attachment: fixed, scroll;
+  background-color: rgba(0,0,0,0.9)
+*/
+}
+
+.project {
+  text-align: center;
+  margin-top: 20px
+}
+
+.project a {
+  text-decoration: none;
+  color: silver;
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.project a:hover {
+  color: beige;
+  text-decoration: none
+}
+
+
+.project img {
+  border: 3px solid beige;
+  box-shadow: 0px 0px 5px 2px dimgray;
+  width: 200px;
+  height: 250px;
+}
+
+.project a p {
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+  padding:6px;
+  margin-top: 15px
+}
+
+.project .by {
+  text-transform: lowercase;
+  font: italic 18px "ff-meta-serif-web-pro";
+}
+
+.author {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 100%;
+  color: dimgray
+}
+
+#skills {
+  background-image: url("images/contours.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+ 
+}
+
+.mean {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px
+  
+}
+
+#mongodb, #express, #angular, #nodejs {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  display: inline-block;
+  transition: transform 1s;
+  cursor: pointer
+}
+
+
+#mongodb:hover {
+  
+  transform: rotate(180deg);
+
+}
+
+#mongoinfo {
+  color: white
+}
+/*
+@keyframes spin {
+  100% {
+    transform: rotate(1turn)
+  }
+}
+*/
+#express:hover {
+/*  box-shadow: 0px 0px 10px 1px orange;*/
+  transform: rotate(180deg);
+}
+
+#angular:hover {
+/*  box-shadow: 0px 0px 10px 1px red;*/
+  transform: rotate(180deg);
+}
+
+#nodejs:hover {
+/*  box-shadow: 0px 0px 10px 1px lightgreen;*/
+  transform: rotate(180deg);
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 25px
+}
+.title p {
+  font-size: 2em;
+  letter-spacing: 0px;
+  font-weight: 100;
+  text-align: center
+}
+
+
+.title p:last-child {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  letter-spacing: 0px
+
+}
+
+.skills p {
+  font-size: 0.8em;
+  text-align: center;
+  
+}
+
+/* The Modal (background) */
+.page-wrap {
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+}
+/*
+.modal {
+    display: none;
+    position: absolute; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    z-index: 9;
+
+}
+*/
+
+/*
+@keyframes animatetop {
+    from {bottom: 5%; opacity: 0}
+    to {bottom: 10%; opacity: 1}
+}
+*/
+/* Modal Content */
+.modal-content {
+
+
+    background-color: rgba(0,0,0,0.8);
+    color: silver;
+      
+}
+
+.formicon {
+  display: none;
+  
+}
+
+/*
+.pm {
+  text-shadow: 0 0 3px green;
+  color: green
+}
+.pe {
+  text-shadow: 0 0 3px #FF9326;
+  color: #FF9326
+}
+.pa {
+  text-shadow: 0 0 3px #E23436;
+  color: #E23436
+}
+.pn {
+  text-shadow: 0 0 3px #99BD4F;
+  color: #99BD4F
+}
+*/
+
+/* The Close Button */
+
+/*go to top*/
+#go-top {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  box-shadow: 0px 0px 5px 2px silver; 
+  background-color: rgba(245,245,220,0.5);
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  z-index: 5;
+  
+}
+
+#go-top a{
+  display: inline-block;
+ text-align: center;
+  color: rgba(0,0,0,0.8);
+  text-decoration: none;
+  font-size: 1.2em
+}
+
+
+.go-top{
+  width: 36px;
+  height: 36px
+}
+/*go to top end*/
+
+.close {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    color: silver;
+    float: right;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.close:hover,
+.close:focus {
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#footer {
+  background-image: url("images/bamboo.png");
+  background-attachment: fixed;
+  background-color: rgba(0,0,0,0.9)
+}
+
+.footer {
+  margin: 10px;
+  text-align: center
+}
+.footer a{
+  text-decoration: none;
+  color: silver;
+  cursor: pointer
+}
+.footer a:hover {
+  color: beige
+}
+.footer p:first-child {
+  border-bottom: 1px solid silver;
+  padding-bottom: 10px
+}
+
+
+
